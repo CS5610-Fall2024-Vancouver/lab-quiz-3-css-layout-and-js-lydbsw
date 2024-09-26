@@ -1,0 +1,85 @@
+/**
+ * Grid
+ */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+}
+
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/**
+ * Flex
+ */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.flex-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+/**
+ * Position
+ */
+.positioned-container {
+    position: relative;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.positioned-element {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+/**
+ * Float left
+ */
+.float-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.float-left {
+    float: left;
+    width: 25%;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/**
+ * center-section
+ */
+.center-section {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+/**
+ * Float right
+ */
+.float-right {
+    float: right;
+    width: 25%;
+    background-color: lightgreen;
+    padding: 20px;
+}
